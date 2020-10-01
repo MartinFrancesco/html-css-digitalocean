@@ -122,20 +122,58 @@ p {
 }
 
 form .btn {
+  position: relative;
   margin-bottom: 16px;
 }
 
 form .btn img {
+  position: absolute;
+  top: 8px;
+  left: 12px;
   max-height: 16px;
 }
 
 
 /* MEDIA Tablet */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-  ul .nav .navbar-nav .ml-60 {
-    display: none;
+@media screen and (min-width: 991px){
+  h2 {
+    font-size: 40px;
   }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .card {
+    padding: 60px 30px;
+  }
+
+  .form-control, .card button {
+    height: 50px;
+  }
+
+  form, small {
+    font-size: 20px;
+  }
+
 }
 
-/* MEDIA Desktop */
+
+/* MEDIA < Desktop */
+@media screen and (max-width: 1199px) {
+
+  /* Mostra hamburger */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    /* Nascondi contenitore menu */
+    .navbar-collapse {
+        display: none;
+    }
+}
