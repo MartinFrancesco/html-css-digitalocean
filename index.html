@@ -5,15 +5,125 @@
     <title>Digitalocean</title>
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Fontawesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css">
   </head>
+
   <body>
+    <!-- Main-Menù -->
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="./assets/do-logo.png" alt=""></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- Navbar SX -->
+            <ul class="nav navbar-nav ml-60">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="fas fa-chevron-down"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Customers</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="fas fa-chevron-down"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+
+            <!-- Navbar DX -->
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Docs</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="fas fa-chevron-down"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Login</a>
+              </li>
+              <li>
+                <a href="#"><button class="btn btn-default"type="button" name="button">Sign Up</button></a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+    <!-- HERO-SECTION -->
+    <section id="hero" class="section white-text">
+      <div class="container">
+        <div class="row mt-50">
+          <div class="col-xs-12">
+            <h2>The simplest cloud platform for developers & teams</h2>
+            <p>Deploy, manage and scale cloud applications faster and more efficiently on Digitalocean. We make managing infrastructure easy for teams and businessess, whether you're running one virtual machine or ten thousands.</p>
+          </div>
+
+          <div class="col-xs-12 text-center black-text">
+            <div class="card">
+              <h3>Deploy your app in seconds</h3>
+              <h3><a href="#">Get started now.</a></h3>
+
+              <form>
+                <div class="form-group">
+
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <div class="form-group">
+
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Create your account</button>
+                <button type="submit" class="btn w-100"><img src="./assets/google-icon.png" alt="">Sign up with google</button>
+                <small id="emailHelp" class="form-text text-muted black-text">By signing up you agree to the <a href="#">Term of Service</a>.</small>
+              </form>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
 
   </body>
 </html>
