@@ -29,12 +29,22 @@ a:hover {
   margin-top: 50px;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .ml-60 {
   margin-left: 60px;
 }
 
 /* Padding */
-
+.pd-0 {
+  padding: 0;
+}
 
 /* Colors */
 .white-text {
@@ -45,8 +55,20 @@ a:hover {
   color: black;
 }
 
+.grey-text {
+  color: #5b6987;
+}
+
+.grey-back {
+  background: #f3f5f9;
+}
+
+.blue-back {
+  background: #0069ff;
+}
+
 /* Typhography */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, {
   font-weight: 700;
 }
 
@@ -133,8 +155,74 @@ form .btn img {
   max-height: 16px;
 }
 
+/* INNOVATIVE BUSINESSESS */
+.sponsor {
+  padding: 20px 0;
+  color: #5b6987;
+}
 
-/* MEDIA Tablet */
+.sponsor ul li {
+  display: inline-block;
+  width: calc(100% / 2 - 10px);
+  padding: 10px;
+}
+
+.sponsor ul li a img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* DEPLOY AND SCALE */
+.list-deploy {
+  font-size: 20px;
+  border-left: 2px solid #5b6987;
+  margin-bottom: 30px;
+}
+
+.list-deploy ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.list-deploy ul li {
+  padding: 10px 0;
+}
+
+/* DESIGNED FOR DEV */
+.carousel {
+  position: relative;
+  width: 80%;
+  margin: 60px auto;
+}
+
+.carousel img {
+  max-width: 90%;
+
+}
+
+.circles {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #0069ff;;
+  border-radius: 50%;
+}
+
+.carousel .fa-chevron-right {
+  position: absolute;
+  right: 0;
+  top: 45%;
+  font-size: 30px;
+}
+
+.carousel .fa-chevron-left {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  font-size: 30px;
+}
+
+/* MEDIA > Tablet */
 @media screen and (min-width: 991px){
   h2 {
     font-size: 40px;
@@ -160,8 +248,23 @@ form .btn img {
     font-size: 20px;
   }
 
-}
+  form .btn img {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    max-height: 20px;
+  }
 
+  .sponsor ul li {
+    display: inline-block;
+    width: calc(100% / 6 - 10px);
+    padding: 10px;
+  }
+
+  .carousel {
+    margin: auto;
+  }
+}
 
 /* MEDIA < Desktop */
 @media screen and (max-width: 1199px) {
