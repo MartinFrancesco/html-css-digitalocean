@@ -59,6 +59,10 @@ a:hover {
   color: #5b6987;
 }
 
+.light-blue-text {
+  color: #00d7d2;
+}
+
 .grey-back {
   background: #f3f5f9;
 }
@@ -197,7 +201,6 @@ form .btn img {
 
 .carousel img {
   max-width: 90%;
-
 }
 
 .circles {
@@ -209,6 +212,7 @@ form .btn img {
 }
 
 .carousel .fa-chevron-right {
+  display: none;
   position: absolute;
   right: 0;
   top: 45%;
@@ -216,10 +220,23 @@ form .btn img {
 }
 
 .carousel .fa-chevron-left {
+  display: none;
   position: absolute;
   left: 0;
   top: 45%;
   font-size: 30px;
+}
+
+/* SERVICE YOUR CUSTOMERS */
+.regions {
+  border-bottom: 1px solid #fff;
+}
+
+/* DEVELOPMENT TEAMS */
+.rockerbox {
+  margin: 40px;
+  padding: 40px 8px;
+  background-color: #fff;
 }
 
 /* MEDIA > Tablet */
@@ -263,6 +280,10 @@ form .btn img {
 
   .carousel {
     margin: auto;
+  }
+
+  .carousel .fa-chevron-left, .carousel .fa-chevron-right {
+    display: block;
   }
 }
 
