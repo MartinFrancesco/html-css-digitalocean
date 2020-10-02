@@ -71,6 +71,10 @@ a:hover {
   background: #0069ff;
 }
 
+.dark-back {
+  background: #010e28;
+}
+
 /* Typhography */
 .f-w-700 {
   font-weight: 700;
@@ -241,6 +245,27 @@ form .btn img {
   margin: 40px;
   padding: 40px 8px;
   background-color: #fff;
+}
+
+/* FOOTER */
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+.final-link li {
+  display: block;
+}
+
+.final-link li a {
+  color: grey;
+}
+
+.icons li a i {
+  padding-right: 10px;
 }
 
 /* MEDIA > Tablet */
