@@ -1,5 +1,6 @@
 /* GENERAL STYLE */
 body {
+  position: relative;
   font-family: "Roboto"
 }
 
@@ -37,6 +38,10 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .ml-60 {
   margin-left: 60px;
 }
@@ -44,6 +49,10 @@ a:hover {
 /* Padding */
 .pd-0 {
   padding: 0;
+}
+
+.pdb-50 {
+  padding-bottom: 50px;
 }
 
 /* Colors */
@@ -258,6 +267,7 @@ footer ul li {
 
 .final-link li {
   display: block;
+  line-height: 30px;
 }
 
 .final-link li a {
@@ -265,7 +275,66 @@ footer ul li {
 }
 
 .icons li a i {
+  font-size: 20px;
   padding-right: 10px;
+}
+
+/* CHAT */
+.bot-chat {
+  position: absolute;
+  right: 40px;
+  bottom: 50px;
+  width: 300px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.box-chat {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+.helper {
+  position: absolute;
+  right: -3px;
+  top: 35px;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.box-chat p {
+  margin: 0;
+}
+
+.shark {
+  position: absolute;
+  right: 270px;
+  bottom: 125px;
+  width: 70px;
+  height: 70px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.shark img {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.notification {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
+  background: red;
+  border-radius: 50%;
+  border: 3px solid #fff;
+
 }
 
 /* MEDIA > Tablet */
@@ -313,6 +382,21 @@ footer ul li {
 
   .carousel .fa-chevron-left, .carousel .fa-chevron-right {
     display: block;
+  }
+
+  .bot-chat {
+    right: 140px;
+    bottom: 40px;
+    width: 500px;
+  }
+
+  .shark {
+    right: 50px;
+    bottom: 40px;
+  }
+
+  .helper {
+    top: 55px;
   }
 }
 
