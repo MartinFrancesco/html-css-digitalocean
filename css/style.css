@@ -102,6 +102,10 @@ p {
   background: #006aff;;
 }
 
+.btn-lg {
+  color: #0069ff;
+}
+
 /* MAIN CONTENT */
 /* Header */
 .navbar-default .navbar-nav > li > a {
@@ -207,7 +211,7 @@ form .btn img {
   display: inline-block;
   width: 10px;
   height: 10px;
-  border: 1px solid #0069ff;;
+  border: 1px solid #0069ff;
   border-radius: 50%;
 }
 
